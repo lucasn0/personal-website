@@ -7,7 +7,7 @@ theme = 'hello-friend-ng'
     name = "Nagel Lucas"
 
 [params]
-    description = "Nice theme for homepages and blogs"
+    description = "My personal website."
     keywords = "lucasnagel, website, homepage, blog"
     images = [""]
     enableSharingButtons = true
