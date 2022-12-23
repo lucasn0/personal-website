@@ -1,0 +1,44 @@
+baseURL = 'https://lucasnagel.ar/'
+languageCode = 'en-us'
+title = '[lucas@fedora ~]$ website'
+theme = 'hello-friend-ng'
+
+[author]
+    name = "Nagel Lucas"
+
+[params]
+    description = "Nice theme for homepages and blogs"
+    keywords = "lucasnagel, website, homepage, blog"
+    images = [""]
+    enableSharingButtons = true
+    homeSubtitle = "Welcome. You can find me in: "
+
+    [params.footer]
+        trademark = true
+
+    [params.logo]
+    logoMark     = ">"
+    logoText     = "[lucas@fedora ~]$⠀"
+    logoHomeLink = "https://getfedora.org"
+    logoCursorColor    = "#cbcac7"
+
+    [[params.social]]
+        name = "email"
+        url  = "mailto:lucasnagel1337@gmail.com"
+
+     [[params.social]]
+        name = "github"
+        url  = "https://github.com/lnagel0"
+
+    [[params.social]]
+        name = "steam"
+        url  = "https://steamcommunity.com/id/fardes1/"
+
+    [[params.social]]
+        name = "youtube"
+        url = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+
+[taxonomies]
+  tag      = "tags"
+  category = "categories"
+  series = "series"
