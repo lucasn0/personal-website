@@ -1,6 +1,6 @@
 baseURL = 'https://lnagel0.github.io/personal-website/'
 languageCode = 'en-us'
-title = '[lucas@fedora ~]$ website'
+title = 'Lucas N.'
 theme = 'hello-friend-ng'
 
 [author]
