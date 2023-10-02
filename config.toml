@@ -24,7 +24,7 @@ theme = 'hello-friend-ng'
 
     [[params.social]]
         name = "email"
-        url  = "mailto:lucasnagel1337@gmail.com"
+        url  = "mailto:lnagel@dc.uba.ar"
 
      [[params.social]]
         name = "github"
