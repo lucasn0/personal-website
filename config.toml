@@ -28,7 +28,7 @@ theme = 'hello-friend-ng'
 
      [[params.social]]
         name = "github"
-        url  = "https://github.com/lnagel0"
+        url  = "https://github.com/lucasn0"
 
     [[params.social]]
         name = "steam"
