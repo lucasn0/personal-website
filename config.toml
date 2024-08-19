@@ -11,7 +11,7 @@ theme = 'hello-friend-ng'
     keywords = "lucasnagel, website, homepage, blog"
     images = [""]
     enableSharingButtons = true
-    homeSubtitle = "Welcome. You can find me in: "
+    homeSubtitle = "Hi! You can find me in: "
 
     [params.footer]
         trademark = true
