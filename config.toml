@@ -3,11 +3,6 @@ languageCode = 'en-us'
 title = 'Lucas N.'
 theme = 'hello-friend-ng'
 
-
-[menu]
-
-
-
 [params]
     description = "My personal website."
     keywords = "lucasnagel, website, homepage, blog"
