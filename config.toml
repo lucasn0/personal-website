@@ -3,8 +3,10 @@ languageCode = 'en-us'
 title = 'Lucas N.'
 theme = 'hello-friend-ng'
 
-[author]
-    name = "Nagel Lucas"
+
+[menu]
+
+
 
 [params]
     description = "My personal website."
@@ -14,7 +16,7 @@ theme = 'hello-friend-ng'
     homeSubtitle = "Hi! You can find me in: "
 
     [params.footer]
-        trademark = true
+        trademark = 2025
 
     [params.logo]
     logoMark     = ">"
@@ -39,6 +41,7 @@ theme = 'hello-friend-ng'
         url = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 
 [taxonomies]
+  author = "Lucas N."
   tag      = "tags"
   category = "categories"
   series = "series"
