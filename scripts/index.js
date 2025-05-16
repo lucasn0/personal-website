@@ -52,7 +52,7 @@ const quotes = [{
     quote: "How do you pick up the threads of an old life... when in your heart, you begin to understand, there is no going back."
     },{
     author: "Charles Dickens",
-    quote: "You have been in every line I have ever read"
+    quote: "You have been in every line I have ever read."
     },{
     author: "N. K. Jemisin",
     quote: "I think, that if you love someone, you don't get to choose how they love you back."
