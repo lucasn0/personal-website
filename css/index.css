@@ -1,0 +1,107 @@
+html {
+    height: 100%;
+    background: #333333;
+    background: linear-gradient(141deg, rgba(51, 51, 51, 1) 1%, rgba(41, 38, 59, 1) 100%);
+}
+
+body {
+    width: 712px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.navbar {
+    font-family: monospace;
+    color: white;
+    font-size: 30px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.cursor {
+    animation: blink 1s infinite step-end;
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+.navigation {
+    display: grid;
+    grid-template-columns: repeat(4, 0fr);
+    font-family: monospace;
+    list-style: none;
+    width: fit-content;
+    padding-left: 0;
+    margin-top: 30px;
+}
+
+.navigation li, .bookmarks li {
+    width: fit-content;
+    color: white;
+    font-family: monospace;
+    font-size: 1.4rem;
+    border-bottom: 2px solid white;
+    cursor: pointer;
+    margin-right: 2rem;
+}
+
+.navigation li:hover, .bookmarks li:hover {
+    background-color: white;
+    color: black;
+}
+
+hr {
+    width: 486px;
+    margin: 0;
+    margin-top: 2rem;
+    color: rgb(189, 189, 189);
+}
+
+.quote {
+    width: 486px;
+    font-family: monospace;
+    font-size: 1.2rem;
+    color: white;
+    margin-top: 30px;
+}
+
+#quotation {
+    font-style: italic;
+}
+
+
+.footer {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.footer img {
+    opacity: 0.7;
+    transition: opacity 0.3s;
+    margin-right: 50px;
+}
+
+.footer img:hover {
+    opacity: 1;
+}
+
+.ascii-art pre {
+    margin: 0;
+    font-family: monospace;
+    font-size: 12px;
+    line-height: 1.2;
+    color: #ffffff;
+
+}
