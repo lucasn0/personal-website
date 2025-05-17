@@ -1,0 +1,13 @@
+.category {
+    font-family: monospace;
+    font-size: 30px;
+    color: white;
+}
+
+pre {
+    font-family: monospace;
+    font-size: 15px;
+    color: white;
+    margin: 0;
+    line-height: 0.8;
+}

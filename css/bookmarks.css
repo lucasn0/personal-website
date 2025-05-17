@@ -1,0 +1,9 @@
+.category {
+    font-family: monospace;
+    font-size: 30px;
+    color: white;
+}
+
+.bookmarks li {
+    list-style: decimal;
+}

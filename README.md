@@ -1,1 +1,1 @@
-My personal website, with multiple contact links... or not.
+Alternative version for my website. WIP.

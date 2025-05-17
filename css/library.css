@@ -1,0 +1,30 @@
+.category {
+    font-family: monospace;
+    font-size: 30px;
+    color: white;
+}
+
+.books {
+    display: grid;
+    font-family: monospace;
+    grid-template-columns: repeat(2, 200px);
+    grid-template-rows: repeat(20s, auto);
+    color: white;
+    gap: 2px;
+}
+
+.books h2 {
+    font-size: 25px;
+    border: 1px solid #ddd;
+}
+
+.books p, .books span {
+    font-size: 15px;
+    border: 1px solid #aaaaaa;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.books p {
+    font-style: italic;
+}
