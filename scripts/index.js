@@ -119,6 +119,9 @@ const quotes = [{
     },{
     author: "Daft Punk",
     quote: "If I had my way, I would never leave. Keep building these random memories. Turning our days into melodies. But since I can't stay, I'll just keep playing back these Fragments of Time."
+    },{
+    author: "Albert Einstein",
+    quote: "You can't blame gravity for falling in love."
     }
 ]
 
