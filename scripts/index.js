@@ -115,7 +115,7 @@ const quotes = [{
     quote: "I've asked everyone, I'm beginning to think I imagined you all along."
     },{
     author: "The Strokes",
-    quote: "Fate my friend you say the strangest things."
+    quote: "Fate, my friend, you say the strangest things."
     },{
     author: "Daft Punk",
     quote: "If I had my way, I would never leave. Keep building these random memories. Turning our days into melodies. But since I can't stay, I'll just keep playing back these Fragments of Time."
