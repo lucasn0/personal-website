@@ -2,12 +2,14 @@ html {
     height: 100%;
     background: #07070f;
     background: linear-gradient(141deg,rgba(7, 7, 15, 1) 1%, rgba(41, 38, 59, 1) 100%);
+    background-attachment: fixed;
 }
 
 body {
     width: 712px;
     margin-top: 50px;
     margin-left: 100px;
+    padding-bottom: 200px;
 }
 
 .navbar {
