@@ -122,6 +122,48 @@ const quotes = [{
     },{
     author: "Albert Einstein",
     quote: "You can't blame gravity for falling in love."
+    },{
+    author: "Unknown",
+    quote: "Your memory will be preserved in JPEGs and archived chat messages."
+    },{
+    author: "Unknown",
+    quote: "Unreflective nostalgia can breed monsters."
+    },{
+    author: "Unknown",
+    quote: "Data can't hold a heartbeat."
+    },{
+    author: "Romans 12:19",
+    quote: "Do not take revenge, my dear friends, but leave room for God's wrath, for it is written: 'It is mine to avenge; I will repay,' says the Lord."
+    },{
+    author: "Cormac McCarthy",
+    quote: "You'll never know what worse luck your bad luck has saved you from."
+    },{
+    author: "Unknown",
+    quote: "If you think you hate everyone, have something to eat. If you think everyone hates you, have a nap."
+    },{
+    author: "John Steinbeck",
+    quote: "I shall revenge myself in the cruelest way you can imagine. I shall forget it."
+    },{
+    author: "Richard J. Needham",
+    quote: "The man who is 'brutally honest' enjoys the brutality as much as the honesty... Possibly more."
+    },{
+    author: "Sorek Kierkegaard",
+    quote: "Do it, don't do it - You will regret both."
+    },{
+    author: "Unknown",
+    quote: "You'll never find same person twice. Not even in the same person."
+    },{
+    author: "Henry Hazlitt",
+    quote: "A problem properly stated is a problem partly solved."
+    },{
+    author: "Unknown",
+    quote: "Smart people don't know everything. Simply how and where to find answers."
+    },{
+    author: "John Wooden",
+    quote: "The true test of a man's character is what he does when no one is watching."
+    },{
+    author: "Seneca",
+    quote: "For those who do not know what port they're sailing to, no wind is favourable."
     }
 ]
 
