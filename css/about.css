@@ -3,3 +3,9 @@ h1 {
     font-size: 30px;
     color: white;
 }
+
+p {
+    font-family: monospace;
+    font-size: 22px;
+    color: white
+}
