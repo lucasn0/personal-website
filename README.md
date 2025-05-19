@@ -1,1 +1,1 @@
-Alternative version for my website. WIP.
+There used to ve a GOHUGO version of my website around here, but I got bored of it.
