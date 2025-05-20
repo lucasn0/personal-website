@@ -97,7 +97,7 @@ const quotes = [{
     quote: "I would rather share one lifetime with you than face all the ages of this world alone."
     },{
     author: "David Gemmell",
-    quote: "The truth is a man can only find true love when he surrenders to it. When he opens his heart to the partner of his soul and says: 'Here it is! The very essence of me! it is yours to nurture or destrou.'"
+    quote: "The truth is a man can only find true love when he surrenders to it. When he opens his heart to the partner of his soul and says: 'Here it is! The very essence of me! it is yours to nurture or destroy.'"
     },{
     author: "Mark Twain",
     quote: "You go to heaven for the climate and hell for the company."
