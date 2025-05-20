@@ -58,7 +58,7 @@ const quotes = [{
     quote: "I think, that if you love someone, you don't get to choose how they love you back."
     },{
     author: "Alix E. Harrow",
-    quote: "It’s a profoundly strange feeling, to stumble across someone whose desires are shaped so closely to your own, like reaching toward your reflection in a mirror and finding warm flesh under your fingertips. If you should ever be lucky enough to find that magical, fearful symmetry, I hope you’re brave enough to grab it with both hands and not let go."
+    quote: "It's a profoundly strange feeling, to stumble across someone whose desires are shaped so closely to your own, like reaching toward your reflection in a mirror and finding warm flesh under your fingertips. If you should ever be lucky enough to find that magical, fearful symmetry, I hope you’re brave enough to grab it with both hands and not let go."
     },{
     author: "James S. A. Corey",
     quote: "If life trascends death; then I will seek for you there. If not, then there too."
