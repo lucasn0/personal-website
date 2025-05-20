@@ -40,7 +40,7 @@ const quotes = [{
     quote: "Biology is really Chemistry. Chemistry is really Physics. Physics is really Math. Math is really hard."
     },{
     author: "Aristotle",
-    quote: "It is the mark of an educated mind to be able to entertain a though without accepting it."
+    quote: "It is the mark of an educated mind to be able to entertain a thought without accepting it."
     },{
     author: "Charles Darwin",
     quote: "It is not the strongest of the species that survives, nor the most intelligent that survives. It is the one that is most adaptable to change."
