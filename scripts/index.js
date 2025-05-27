@@ -161,6 +161,12 @@ const quotes = [{
     },{
     author: "Seneca",
     quote: "For those who do not know what port they're sailing to, no wind is favourable."
+    },{
+    author: "Desconocido",
+    quote: "El dolor es el precio que pagamos por amar. Pero el amor es el único camino para sanarlo."
+    },{
+    author: "Persian proverb",
+    quote: "This too shall pass."
     }
 ]
 
