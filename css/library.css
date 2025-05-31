@@ -15,12 +15,12 @@
 
 .books h2 {
     font-size: 25px;
-    border: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
 }
 
 .books p, .books span {
     font-size: 15px;
-    border: 1px solid #aaaaaa;
+    border-bottom: 1px solid #aaaaaa;
     margin-top: 1px;
     margin-bottom: 1px;
 }
