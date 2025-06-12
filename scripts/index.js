@@ -164,6 +164,12 @@ const quotes = [{
     },{
     author: "Persian proverb",
     quote: "This too shall pass."
+    },{
+    author: "Jorge Luis Borges",
+    quote: "Lo que realmente valoras es lo que extrañas."
+    },{
+    author: "Oscar Wilde",
+    quote: "Be yourself; everyone else is already taken."
     }
 ]
 
