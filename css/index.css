@@ -1,12 +1,13 @@
 html {
     height: 100%;
+    width: 100%;
     background: #07070f;
     background: linear-gradient(141deg,rgba(7, 7, 15, 1) 1%, rgba(41, 38, 59, 1) 100%);
     background-attachment: fixed;
 }
 
 body {
-    width: 500px;
+    width: 80%;
     margin-top: 50px;
     margin-left: 100px;
     padding-bottom: 200px;
@@ -17,6 +18,7 @@ body {
     font-weight: bold;
     color: white;
     font-size: 30px;
+    padding-right: 100px;
 }
 
 a {
@@ -40,6 +42,7 @@ a {
     list-style: none;
     width: fit-content;
     padding-left: 0;
+    padding-right: 100px;
     margin-top: 30px;
 }
 
