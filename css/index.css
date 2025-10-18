@@ -6,7 +6,7 @@ html {
 }
 
 body {
-    width: 712px;
+    width: 500px;
     margin-top: 50px;
     margin-left: 100px;
     padding-bottom: 200px;
@@ -48,9 +48,9 @@ a {
     color: white;
     font-family: monospace;
     font-size: 1.4rem;
-    border-bottom: 2px solid white;
     cursor: pointer;
     margin-right: 2rem;
+    text-decoration: underline;
 }
 
 .navigation li:hover, .bookmarks li:hover {
@@ -105,5 +105,4 @@ hr {
     font-size: 12px;
     line-height: 1.2;
     color: #ffffff;
-
 }
