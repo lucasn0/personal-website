@@ -1,1 +1,1 @@
-There used to ve a GOHUGO version of my website around here, but I got bored of it.
+Personal website with, well, personal data.
