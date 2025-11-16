@@ -10,4 +10,6 @@ pre {
     color: white;
     margin: 0;
     line-height: 0.8;
+    overflow-x: auto;
+    white-space: pre;
 }

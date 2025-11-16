@@ -7,7 +7,7 @@
 .books {
     display: grid;
     font-family: monospace;
-    grid-template-columns: repeat(2, 200px);
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(20s, auto);
     color: white;
     gap: 2px;
