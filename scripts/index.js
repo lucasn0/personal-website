@@ -178,7 +178,7 @@ function displayQuote() {
     const quoteAuthor = document.getElementById('author');
     const randomIndex = Math.floor(Math.random() * quotes.length);
     quoteElement.textContent = quotes[randomIndex].quote;
-    quoteAuthor.textContent = "⠀⠀⠀⠀⠀⠀⠀- " + quotes[randomIndex].author;
+    quoteAuthor.textContent = "-" + quotes[randomIndex].author;
 }
 
 window.onload = displayQuote;

@@ -76,6 +76,10 @@ hr {
     margin-top: 30px;
 }
 
+#author {
+    padding-left: 2em;
+}
+
 #quotation {
     font-style: italic;
 }
