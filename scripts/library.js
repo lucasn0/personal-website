@@ -5,15 +5,12 @@ document.addEventListener("DOMContentLoaded", () => {
         .then(response => response.json())
         .then(data => {
             data.forEach(item => {
-                // Create author element (<span>)
                 const author = document.createElement('span');
                 author.textContent = item.author;
                 
-                // Create book element (<p>)
                 const book = document.createElement('p');
                 book.textContent = item.book;
                 
-                // Append them to the grid
                 booksGrid.appendChild(author);
                 booksGrid.appendChild(book);
             });
