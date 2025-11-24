@@ -104,6 +104,7 @@ hr {
     opacity: 0.7;
     transition: opacity 0.3s;
     margin-right: 70px;
+    filter: drop-shadow(3px 3px 1px rgba(0, 0, 0, 0.5));
 }
 
 .footer img:hover {
@@ -116,6 +117,7 @@ hr {
     font-size: 12px;
     line-height: 1.2;
     color: #ffffff;
+    text-shadow: 2px 2px 5px #000000;
 }
 
 @media (max-width: 600px) {
