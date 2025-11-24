@@ -112,7 +112,7 @@ hr {
 }
 
 .ascii-art pre {
-    margin: 0;
+    margin-left: 75px;
     font-family: monospace;
     font-size: 12px;
     line-height: 1.2;
@@ -127,6 +127,11 @@ hr {
         margin-left: auto;
         margin-right: auto;
         padding-bottom: 100px;
+        min-height: 100dvh;
+    }
+
+    html {
+        min-height: 100dvh;
     }
    
     .navbar {
@@ -149,6 +154,10 @@ hr {
     }
 
     .footer img {
-        margin-right: 20px;
+        margin-right: 20vw;
+    }
+
+    #ascii-art {
+        margin-left: 0;
     }
 }
