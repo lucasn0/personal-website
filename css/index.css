@@ -2,7 +2,7 @@ html {
     height: 100%;
     width: 100%;
     background: #00263d;
-background: linear-gradient(90deg, rgba(0, 38, 61, 1) 0%, rgba(87, 199, 133, 1) 93%, rgba(237, 221, 83, 1) 100%);
+    background: linear-gradient(90deg, rgba(0, 38, 61, 1) 0%, rgba(87, 199, 133, 1) 93%, rgba(237, 221, 83, 1) 100%);
     background-attachment: fixed;
 }
 
