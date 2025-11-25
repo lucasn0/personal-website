@@ -12,6 +12,7 @@
     font-family: monospace;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(20s, auto);
+    text-shadow: 2px 2px 4px #000000;
     color: white;
     gap: 2px;
 }
