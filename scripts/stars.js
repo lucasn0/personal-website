@@ -2,6 +2,10 @@ document.addEventListener("DOMContentLoaded", () => {
     const starCount = 100;
     const body = document.body;
 
+    const moon = document.createElement('div');
+    moon.className = 'moon';
+    body.appendChild(moon);
+
     for (let i = 0; i < starCount; i++) {
         const star = document.createElement('div');
         star.className = 'star';
