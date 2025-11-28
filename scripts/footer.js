@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const originalParent = mainCursor.parentElement;
     const originalNextSibling = mainCursor.nextSibling;
 
-    const startDate = new Date('2003-03-27T08:30:00');
+    const startDate = new Date('2003-03-27T20:05:00');
 
     const encodedKey = "MTlhMTgyNTc1Nzg0MDRkOTI0MTY0YzY2Y2Q4ZTM2ZTU=";
     const apiKey = atob(encodedKey);
