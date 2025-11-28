@@ -7,6 +7,57 @@ document.addEventListener("DOMContentLoaded", () => {
     moon.style.cursor = 'grab';
     body.appendChild(moon);
 
+    function getMoonPhase(date) {
+        // Epoch: January 6, 2000 (New Moon)
+        const epoch = new Date('2000-01-06T18:14:00Z').getTime();
+        const now = date.getTime();
+        const diff = now - epoch;
+        
+        const days = diff / (1000 * 60 * 60 * 24);
+        const cycle = 29.5305882;
+        const phase = (days % cycle) / cycle;
+        
+        return phase; // 0 to 1
+    }
+
+    function getPhaseName(phase) {
+        if (phase < 0.03 || phase > 0.97) return "New Moon";
+        if (phase < 0.22) return "Waxing Crescent";
+        if (phase < 0.28) return "First Quarter";
+        if (phase < 0.47) return "Waxing Gibbous";
+        if (phase < 0.53) return "Full Moon";
+        if (phase < 0.72) return "Waning Gibbous";
+        if (phase < 0.78) return "Last Quarter";
+        return "Waning Crescent";
+    }
+
+    function updateMoonAppearance() {
+        const phase = getMoonPhase(new Date());
+        const phaseName = getPhaseName(phase);
+        moon.title = `Current Phase: ${phaseName}`;
+
+        const moonWidth = 50; 
+        
+        moon.style.backgroundColor = '#fffee0ff';
+        moon.style.boxShadow = 'none';
+        moon.style.borderRadius = '50%';
+
+        const shadowColor = 'rgba(0, 3, 33, 0.95)';
+
+        if (phase < 0.5) {
+            const offset = moonWidth * (1 - (phase / 0.5));
+            moon.style.boxShadow = `inset ${offset}px 0 0 0 ${shadowColor}`;
+            
+            if (phase < 0.05) moon.style.backgroundColor = shadowColor;
+
+        } else {
+            const offset = moonWidth * ((phase - 0.5) / 0.5);
+            moon.style.boxShadow = `inset -${offset}px 0 0 0 ${shadowColor}`;
+        }
+    }
+
+    updateMoonAppearance();
+
     let isDragging = false;
     let startX, startY;
 

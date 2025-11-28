@@ -41,11 +41,9 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     async function moveCursorTo(targetElement, appendFn) {
-        // Get current position and styles
         const rect = mainCursor.getBoundingClientRect();
         const computedStyle = window.getComputedStyle(mainCursor);
         
-        // Set fixed position to current spot to prevent jumping
         mainCursor.style.position = 'fixed';
         mainCursor.style.left = `${rect.left}px`;
         mainCursor.style.top = `${rect.top}px`;
