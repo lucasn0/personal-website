@@ -1,9 +1,9 @@
 html {
     height: 100%;
     width: 100%;
-    background-attachment: fixed;
     background: #010005;
-background: linear-gradient(180deg, rgba(1, 0, 5, 1) 0%, rgba(0, 0, 43, 1) 87%);
+    background: linear-gradient(180deg, rgba(1, 0, 5, 1) 0%, rgba(0, 0, 43, 1) 87%);
+    background-attachment: fixed;
 }
 
 body {
@@ -111,13 +111,14 @@ hr {
     opacity: 1;
 }
 
-.ascii-art pre {
+.footer-text {
     margin-left: 75px;
     font-family: monospace;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.2;
     color: #ffffff;
     text-shadow: 2px 2px 5px #000000;
+    min-width: 300px; /* Prevent layout shift */
 }
 
 @media (max-width: 600px) {
@@ -157,7 +158,7 @@ hr {
         margin-right: 15vw;
     }
 
-    .ascii-art pre {
+    .footer-text {
         margin-left: 0vw;
     }
 

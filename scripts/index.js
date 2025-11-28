@@ -29,8 +29,11 @@ document.addEventListener("DOMContentLoaded", () => {
         const randomIndex = Math.floor(Math.random() * allQuotes.length);
         const randomQuote = allQuotes[randomIndex]; 
 
-        typeWriter(`"${randomQuote.quote}"`, quotation, 20, () => {
-            typeWriter(`- ${randomQuote.author}`, author, 10); 
+        typeWriter(`"${randomQuote.quote}"`, quotation, 50, () => {
+            processTextForGlitch(quotation);
+            typeWriter(`- ${randomQuote.author}`, author, 10, () => {
+                processTextForGlitch(author);
+            }); 
         });
     }
 
@@ -53,12 +56,10 @@ document.addEventListener("DOMContentLoaded", () => {
     /* glitch bullshti */
     const glitchChars = '!<>-_\\/[]{}—=+*^?#________'; 
     
-    const links = document.querySelectorAll('.navigation a');
+    function attachGlitchEffect(element) {
+        element.dataset.original = element.innerText;
 
-    links.forEach(link => {
-        link.dataset.original = link.innerText;
-
-        link.addEventListener('mouseover', event => {
+        element.addEventListener('mouseover', event => {
             let iteration = 0;
             const originalText = event.target.dataset.original;
             
@@ -82,7 +83,26 @@ document.addEventListener("DOMContentLoaded", () => {
                 iteration += 1 / 4; 
             }, 30);
         });
+    }
+    
+    function processTextForGlitch(element) {
+        const text = element.innerText;
+        const words = text.split(' ');
+        element.innerHTML = '';
         
-    });
+        words.forEach((word, index) => {
+            const span = document.createElement('span');
+            span.innerText = word;
+            attachGlitchEffect(span);
+            element.appendChild(span);
+            
+            if (index < words.length - 1) {
+                element.appendChild(document.createTextNode(' '));
+            }
+        });
+    }
+
+    const links = document.querySelectorAll('.navigation a');
+    links.forEach(link => attachGlitchEffect(link));
 
 });
