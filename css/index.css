@@ -1,9 +1,9 @@
 html {
     height: 100%;
     width: 100%;
-    background-attachment: fixed;
     background: #010005;
-background: linear-gradient(180deg, rgba(1, 0, 5, 1) 0%, rgba(0, 0, 43, 1) 87%);
+    background: linear-gradient(180deg, rgba(1, 0, 5, 1) 0%, rgba(0, 0, 43, 1) 87%);
+    background-attachment: fixed;
 }
 
 body {
