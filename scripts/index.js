@@ -49,4 +49,40 @@ document.addEventListener("DOMContentLoaded", () => {
     
     quotation.style.cursor = 'pointer';
     quotation.style.userSelect = 'none';
+
+    /* glitch bullshti */
+    const glitchChars = '!<>-_\\/[]{}—=+*^?#________'; 
+    
+    const links = document.querySelectorAll('.navigation a');
+
+    links.forEach(link => {
+        link.dataset.original = link.innerText;
+
+        link.addEventListener('mouseover', event => {
+            let iteration = 0;
+            const originalText = event.target.dataset.original;
+            
+            if (event.target.interval) clearInterval(event.target.interval);
+
+            event.target.interval = setInterval(() => {
+                event.target.innerText = originalText
+                    .split("")
+                    .map((letter, index) => {
+                        if (index < iteration) {
+                            return originalText[index];
+                        }
+                        return glitchChars[Math.floor(Math.random() * glitchChars.length)];
+                    })
+                    .join("");
+
+                if (iteration >= originalText.length) { 
+                    clearInterval(event.target.interval);
+                }
+                
+                iteration += 1 / 4; 
+            }, 30);
+        });
+        
+    });
+
 });
