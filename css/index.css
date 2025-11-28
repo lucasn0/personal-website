@@ -154,10 +154,11 @@ hr {
     }
 
     .footer img {
-        margin-right: 20vw;
+        margin-right: 15vw;
     }
 
-    #ascii-art {
-        margin-left: 0;
+    .ascii-art pre {
+        margin-left: 0vw;
     }
+
 }
