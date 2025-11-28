@@ -10,9 +10,14 @@ document.addEventListener("DOMContentLoaded", () => {
                 
                 const book = document.createElement('p');
                 book.textContent = item.book;
+
+                const rating = document.createElement('span');
+                const starCount = item.rating || 0;
+                rating.textContent = '★'.repeat(starCount) + '☆'.repeat(5 - starCount);
                 
                 booksGrid.appendChild(author);
                 booksGrid.appendChild(book);
+                booksGrid.appendChild(rating);
             });
         })
         .catch(error => {
