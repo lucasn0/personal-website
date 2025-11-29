@@ -95,7 +95,7 @@ document.addEventListener("DOMContentLoaded", () => {
         moon.style.transition = 'all 1s ease-out';
         
         const targetTop = 80;
-        const targetRight = 80;
+        const targetRight = 50;
         const moonWidth = 50;
         const targetLeft = window.innerWidth - targetRight - moonWidth;
         
