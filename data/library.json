@@ -43,5 +43,6 @@
     {"author": "Julio Verne", "book": "Veinte mil leguas de viaje submarino", "rating": 0},
     {"author": "Aldous Huxley", "book": "Brave New World", "rating": 4},
     {"author": "Henry Hazlitt", "book": "Economics in One Lesson", "rating": 3},
-    {"author": "Yukio Mishima", "book": "The Sailor Who Fell from Grace with the Sea", "rating": 0}
+    {"author": "Yukio Mishima", "book": "The Sailor Who Fell from Grace with the Sea", "rating": 0},
+    {"author": "Cervantes", "book": "Don Quijote de la Mancha", "rating": 5}
 ]
