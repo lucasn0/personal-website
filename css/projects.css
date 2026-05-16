@@ -12,3 +12,7 @@ p {
     font-size: 22px;
     color: white
 }
+
+a {
+    text-decoration: underline;
+}
