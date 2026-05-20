@@ -1,1 +1,1 @@
-Personal website with, well, personal data.
+Tons of interesting links to stuff of mine!
