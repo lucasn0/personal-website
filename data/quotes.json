@@ -40,10 +40,6 @@
     "quote": "It's only after we've lost everything that we're free to do anything."
   },
   {
-    "author": "Neil Gaiman",
-    "quote": "Have you ever been in love? Horrible, isn't it? It makes you so vulnerable. It opens your chest and it opens up your heart and it means that someone can get inside you and mess you up. You build up all these defenses. You build up this whole armor, for years, so nothing can hurt you, then one stupid person, no different from any other stupid person, wanders into your stupid life… You give them a piece of you. They don't ask for it. They do something dumb one day like kiss you, or smile at you, and then your life isn't your own anymore. Love takes hostages. It gets inside you. It eats you out and leaves you crying in the darkness, so a simple phrase like 'maybe we should just be friends' or 'how very perceptive' turns into a glass splinter working its way into your heart. It hurts. Not just in the imagination. Not just in the mind. It's a soul-hurt, a body-hurt, a real gets-inside-you-and-rips-you-apart pain. Nothing should be able to do that. Especially not love. I hate love."
-  },
-  {
     "author": "Unknown",
     "quote": "Biology is really Chemistry. Chemistry is really Physics. Physics is really Math. Math is really hard."
   },
@@ -68,14 +64,6 @@
     "quote": "You have been in every line I have ever read."
   },
   {
-    "author": "N. K. Jemisin",
-    "quote": "I think, that if you love someone, you don't get to choose how they love you back."
-  },
-  {
-    "author": "Alix E. Harrow",
-    "quote": "It's a profoundly strange feeling, to stumble across someone whose desires are shaped so closely to your own, like reaching toward your reflection in a mirror and finding warm flesh under your fingertips. If you should ever be lucky enough to find that magical, fearful symmetry, I hope you’re brave enough to grab it with both hands and not let go."
-  },
-  {
     "author": "James S. A. Corey",
     "quote": "If life transcends death; then I will seek for you there. If not, then there too."
   },
@@ -88,16 +76,8 @@
     "quote": "If we are to judge of love by its consequences, it more nearly resembles hatred than friendship."
   },
   {
-    "author": "Gustavo Cerati",
-    "quote": "Te amo para siempre... Pero siempre es hoy."
-  },
-  {
     "author": "Roger de Rabutin",
     "quote": "Absence is to love what wind is to fire; it extinguishes the small, it enkindles the great."
-  },
-  {
-    "author": "Friedrich Nietzsche",
-    "quote": "There is always some madness in love. But there is also always some reason in madness."
   },
   {
     "author": "Antoine de Saint Exupéry",
@@ -124,10 +104,6 @@
     "quote": "I would rather share one lifetime with you than face all the ages of this world alone."
   },
   {
-    "author": "David Gemmell",
-    "quote": "The truth is a man can only find true love when he surrenders to it. When he opens his heart to the partner of his soul and says: 'Here it is! The very essence of me! it is yours to nurture or destroy.'"
-  },
-  {
     "author": "Mark Twain",
     "quote": "You go to heaven for the climate and hell for the company."
   },
@@ -138,18 +114,6 @@
   {
     "author": "Unknown",
     "quote": "Be the things that you loved the most about the people who are gone."
-  },
-  {
-    "author": "Alex Turner",
-    "quote": "When true love takes a grip it leaves you without a choice."
-  },
-  {
-    "author": "Alex Turner",
-    "quote": "I've asked everyone, I'm beginning to think I imagined you all along."
-  },
-  {
-    "author": "Daft Punk",
-    "quote": "If I had my way, I would never leave. Keep building these random memories. Turning our days into melodies. But since I can't stay, I'll just keep playing back these Fragments of Time."
   },
   {
     "author": "Albert Einstein",
@@ -212,10 +176,6 @@
     "quote": "For those who do not know what port they're sailing to, no wind is favourable."
   },
   {
-    "author": "Unknown",
-    "quote": "El dolor es el precio que pagamos por amar. Pero el amor es el único camino para sanarlo."
-  },
-  {
     "author": "Persian proverb",
     "quote": "This too shall pass."
   },
@@ -234,5 +194,13 @@
   {
     "author": "Anónimo",
     "quote": "Lo que se vive una vez puede recordarse; lo que se vive dos veces ya se compara."
+  },
+  {
+    "author": "Miguel de Cervantes",
+    "quote": "En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho tiempo que vivía un hidalgo de los de lanza en astillero, adarga antigua, rocín flaco y galgo corredor."
+  },
+  {
+    "author": "Fiódor Dostoievsky",
+    "quote": "Si Dios no existe, todo está permitido."
   }
 ]
