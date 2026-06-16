@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
         const seconds = Math.floor((diff % (1000 * 60)) / 1000);
         
-        return `Uptime: ${days} days, ${hours} hours, ${minutes} minutes, ${seconds} seconds`;
+        return `Alive for: ${days} days, ${hours} hours, ${minutes} minutes, ${seconds} seconds`;
     }
 
     async function getListeningTo() {
