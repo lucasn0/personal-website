@@ -384,5 +384,179 @@
             "Crimen",
             "Jugo de Luna"
         ]
+    },
+    {
+        "cover": "/images/24k-magic.png",
+        "title": "24K Magic",
+        "artist": "Bruno Mars",
+        "year": 2016,
+        "duration": "33:33",
+        "tracklist": [
+            "24K Magic",
+            "Chunky",
+            "Perm",
+            "That's What I Like",
+            "Versace On The Floor",
+            "Straight Up & Down",
+            "Calling All My Lovelies",
+            "Finesse",
+            "Too Good to Say Goodbye"
+        ]
+    },
+    {
+        "cover": "/images/divididos-felicidad.jpg",
+        "title": "Divididos Por la Felicidad",
+        "artist": "Sumo",
+        "year": 1985,
+        "duration": "38:24",
+        "tracklist": [
+            "La Rubia Tarada",
+            "Mula Plateada",
+            "No Acabes",
+            "Regtest",
+            "El Reggae de Paz y Amor",
+            "Debede",
+            "Mejor No Hablar de Ciertas Cosas",
+            "Divididos Por la Felicidad",
+            "No Duermas Más",
+            "Kaya"
+        ]
+    },
+    {
+        "cover": "/images/in-rainbows.png",
+        "title": "In Rainbows",
+        "artist": "Radiohead",
+        "year": 2007,
+        "duration": "42:39",
+        "tracklist": [
+            "15 Step",
+            "Bodysnatchers",
+            "Nude",
+            "Weird Fishes / Arpeggi",
+            "All I Need",
+            "Faust Arp",
+            "Reckoner",
+            "House of Cards",
+            "Jigsaw Falling Into Place",
+            "Videotape"
+        ]
+    },
+    {
+        "cover": "/images/mezzanine.png",
+        "title": "Mezzanine",
+        "artist": "Massive Attack",
+        "year": 1998,
+        "duration": "111:59",
+        "tracklist": [
+            "Angel (Remastered 2018)",
+            "Risingson (Remastered 2018)",
+            "Teardrop (Remastered 2018)",
+            "Inertia Creeps (Remastered 2018)",
+            "Exchange (Remastered 2018)",
+            "Dissolved Girl (Remastered 2018)",
+            "Man Next Door (Remastered 2018)",
+            "Black Milk (Remastered 2018)",
+            "Mezzanine (Remastered 2018)",
+            "Group Four (Remastered 2018)",
+            "(Exchange) [Remastered 2018]",
+            "Metal Banshee (Mad Prof Mix)",
+            "Angel (Angel Dust)",
+            "Teardrop (Mazaruni Dub One)",
+            "Inertia Creeps (Floating On Dubwise)",
+            "Risingson (Setting Sun Dub Two)",
+            "Exchange (Mountain Steppers Dub)",
+            "Wire (Leaping Dub)",
+            "Group Four (Security Forces Dub)"
+        ]
+    },
+    {
+        "cover": "/images/physical-graffity.jpg",
+        "title": "Physical Graffiti",
+        "artist": "Led Zeppelin",
+        "year": 1975,
+        "duration": "82:54",
+        "tracklist": [
+            "Custard Pie",
+            "The Rover",
+            "In My Time of Dying",
+            "Houses of the Holy",
+            "Trampled Under Foot",
+            "Kashmir",
+            "In the Light",
+            "Bron-Yr-Aur",
+            "Down By the Seaside",
+            "Ten Years Gone",
+            "Night Flight",
+            "The Wanton Song",
+            "Boogie With Stu",
+            "Black Country Woman",
+            "Sick Again"
+        ]
+    },
+    {
+        "cover": "/images/the-low-end-theory.jpg",
+        "title": "The Low End Theory",
+        "artist": "A Tribe Called Quest",
+        "year": 1991,
+        "duration": "48:04",
+        "tracklist": [
+            "Excursions",
+            "Buggin’ Out",
+            "Rap Promoter",
+            "Butter",
+            "Verses From the Abstract",
+            "Show Business",
+            "Vibes and Stuff",
+            "The Infamous Date Rape",
+            "Check the Rhime",
+            "Everything Is Fair",
+            "Jazz (We’ve Got)",
+            "Skypager",
+            "What?",
+            "Scenario"
+        ]
+    },
+    {
+        "cover": "/images/sueño-stereo.jpg",
+        "title": "Sueño Stereo",
+        "artist": "Soda Stereo",
+        "year": 1995,
+        "duration": "53:02",
+        "tracklist": [
+            "Ella Usó Mi Cabeza Como un Revólver",
+            "Disco Eterno",
+            "Zoom",
+            "Ojo de la Tormenta",
+            "Efecto Doppler",
+            "Paseando Por Roma",
+            "Pasos",
+            "Ángel Eléctrico",
+            "Crema de Estrellas",
+            "Planta",
+            "X Playo",
+            "Moírè"
+        ]
+    },
+    {
+        "cover": "/images/sgt-pepper.jpg",
+        "title": "Sgt. Pepper's Lonely Hearts Club Band",
+        "artist": "The Beatles",
+        "year": 1967,
+        "duration": "39:52",
+        "tracklist": [
+            "Sgt. Pepper's Lonely Hearts Club Band",
+            "With a Little Help From My Friends",
+            "Lucy In the Sky with Diamonds",
+            "Getting Better",
+            "Fixing a Hole",
+            "She's Leaving Home",
+            "Being For the Benefit of Mr. Kite!",
+            "Within You Without You",
+            "When I'm Sixty-Four",
+            "Lovely Rita",
+            "Good Morning Good Morning",
+            "Sgt. Pepper's Lonely Hearts Club Band (Reprise)",
+            "A Day In the Life"
+        ]
     }
 ]
