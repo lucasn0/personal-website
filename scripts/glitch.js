@@ -3,17 +3,27 @@ const glitchChars = '!<>-_\\/[]{}—=+*^?#________';
 function attachGlitchEffect(element) {
     if (element.dataset.glitchAttached) return;
     element.dataset.glitchAttached = "true";
-    
-    element.dataset.original = element.innerText;
 
-    element.addEventListener('mouseover', event => {
+    const originalText = element.innerText;
+    element.dataset.original = originalText;
+
+    let glitchTarget = element;
+    if (element.tagName.toLowerCase() === 'a') {
+        const span = document.createElement('span');
+        span.style.pointerEvents = 'none';
+        span.textContent = originalText;
+        element.textContent = '';
+        element.appendChild(span);
+        glitchTarget = span;
+    }
+
+    element.addEventListener('mouseover', () => {
         let iteration = 0;
-        const originalText = event.target.dataset.original;
-        
-        if (event.target.interval) clearInterval(event.target.interval);
 
-        event.target.interval = setInterval(() => {
-            event.target.innerText = originalText
+        if (element._glitchInterval) clearInterval(element._glitchInterval);
+
+        element._glitchInterval = setInterval(() => {
+            glitchTarget.textContent = originalText
                 .split("")
                 .map((letter, index) => {
                     if (index < iteration) {
@@ -23,11 +33,11 @@ function attachGlitchEffect(element) {
                 })
                 .join("");
 
-            if (iteration >= originalText.length) { 
-                clearInterval(event.target.interval);
+            if (iteration >= originalText.length) {
+                clearInterval(element._glitchInterval);
             }
-            
-            iteration += 1 / 4; 
+
+            iteration += 1 / 4;
         }, 30);
     });
 }
