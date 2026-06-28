@@ -4,7 +4,7 @@ function attachGlitchEffect(element) {
     if (element.dataset.glitchAttached) return;
     element.dataset.glitchAttached = "true";
 
-    const originalText = element.innerText;
+    const originalText = element.textContent;
     element.dataset.original = originalText;
 
     let glitchTarget = element;
@@ -29,6 +29,9 @@ function attachGlitchEffect(element) {
                     if (index < iteration) {
                         return originalText[index];
                     }
+                    if (/\s/.test(letter)) {
+                        return letter;
+                    }
                     return glitchChars[Math.floor(Math.random() * glitchChars.length)];
                 })
                 .join("");
@@ -45,15 +48,15 @@ function attachGlitchEffect(element) {
 function processTextForGlitch(element) {
     element.dataset.glitchProcessed = "true";
 
-    const text = element.innerText;
+    const text = element.textContent;
     if (!text.trim()) return;
 
     const words = text.split(' ');
     element.innerHTML = '';
-    
+
     words.forEach((word, index) => {
         const span = document.createElement('span');
-        span.innerText = word;
+        span.textContent = word;
         attachGlitchEffect(span);
         element.appendChild(span);
         
@@ -74,21 +77,21 @@ function applyGlitch(node) {
 
     if (tagName === 'a') {
         attachGlitchEffect(node);
-    } else if (['p', 'h2', 'h3', 'h4', 'h5', 'h6', 'li', 'span'].includes(tagName)) {
+    } else if (['p', 'h2', 'h3', 'h4', 'h5', 'h6', 'li', 'span', 'pre'].includes(tagName)) {
         if (node.children.length === 0 && node.innerText.trim().length > 0) {
             processTextForGlitch(node);
         }
     }
-    
+
     if (node.children.length > 0) {
-        node.querySelectorAll('a, p, h2, h3, h4, h5, h6, li, span').forEach(child => {
+        node.querySelectorAll('a, p, h2, h3, h4, h5, h6, li, span, pre').forEach(child => {
             applyGlitch(child);
         });
     }
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-    document.querySelectorAll('a, p, h2, h3, h4, h5, h6, li, span').forEach(el => {
+    document.querySelectorAll('a, p, h2, h3, h4, h5, h6, li, span, pre').forEach(el => {
         applyGlitch(el);
     });
 
