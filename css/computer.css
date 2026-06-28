@@ -16,3 +16,52 @@ pre {
     white-space: pre;
     text-shadow: 2px 2px 2px #000000;
 }
+
+/* fastfetch-style output */
+.fastfetch {
+    --ff-accent: #4aa3ef;        /* labels / logo (Arch blue) */
+    --ff-logo-color: var(--ff-accent);
+    --ff-value-color: #e6e6e6;
+    display: flex;
+    align-items: flex-start;
+    gap: 2ch;
+    overflow-x: auto;
+    margin-bottom: 30px;
+}
+
+/* macOS variant: light logo, teal labels */
+.fastfetch-mac {
+    --ff-accent: #84b6ac;
+    --ff-logo-color: #e8e8e8;
+}
+
+.fastfetch .ff-logo {
+    color: var(--ff-logo-color);
+    font-weight: bold;
+    flex: none;
+}
+
+.fastfetch .ff-info {
+    color: var(--ff-value-color);
+    flex: none;
+}
+
+.fastfetch .ff-title,
+.fastfetch .ff-key {
+    color: var(--ff-accent);
+    font-weight: bold;
+}
+
+.fastfetch .ff-at,
+.fastfetch .ff-sep,
+.fastfetch .ff-val {
+    color: var(--ff-value-color);
+}
+
+.fastfetch .ff-warn {
+    color: #e06c75;
+}
+
+.fastfetch .ff-ok {
+    color: #a3be8c;
+}
